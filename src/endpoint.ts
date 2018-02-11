@@ -4,9 +4,5 @@ export default interface Endpoint {
   method: HttpMethod,
   route: string,
   propertyName: string,
-  /**
-   * @deprecated
-   */
-  serviceName?: string,
-  service: object|Promise<object>,
+  service: Promise<object>,
 }
