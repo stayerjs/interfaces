@@ -1,6 +1,6 @@
 {
   "name": "@stayer/interfaces",
-  "version": "0.0.10",
+  "version": "0.0.11",
   "description": "Common interfaces, types, errors & exceptions of the Stayer framework.",
   "main": "dist/index.js",
   "scripts": {
@@ -17,5 +17,8 @@
   "devDependencies": {
     "typescript": "^2.7.1"
   },
-  "types": "dist/index.d.ts"
+  "types": "dist/index.d.ts",
+  "dependencies": {
+    "rxjs": "^5.5.6"
+  }
 }

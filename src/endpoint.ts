@@ -5,5 +5,5 @@ export default interface Endpoint {
   route: string,
   propertyName: string,
   service: Promise<object>,
-  fn$?: Promise<any>,
+  fn$?: Promise<Function>,
 }
