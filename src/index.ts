@@ -5,3 +5,5 @@ export { default as Injector } from './injector';
 export {
   Exception, HttpError, MethodNotAllowed, NotFound, NotImplemented,
 } from './errors';
+
+export { default as HttpListener } from './http-listener';
