@@ -3,7 +3,16 @@ export { default as Endpoint } from './endpoint';
 export { default as Injector } from './injector';
 
 export {
-  Exception, HttpError, MethodNotAllowed, NotFound, NotImplemented,
+  Exception,
+  HttpError,
+  BadRequest,
+  Unauthorized,
+  Forbidden,
+  NotFound,
+  MethodNotAllowed,
+  Conflict,
+  InternalServerError,
+  NotImplemented,
 } from './errors';
 
 export { default as HttpListener } from './http-listener';

@@ -1,5 +1,10 @@
 export { default as Exception } from './exception';
 export { default as HttpError } from './http-error';
-export { default as MethodNotAllowed } from './method-not-allowed';
+export { default as BadRequest } from './bad-request';
+export { default as Unauthorized } from './unauthorized';
+export { default as Forbidden } from './forbidden';
 export { default as NotFound } from './not-found';
+export { default as MethodNotAllowed } from './method-not-allowed';
+export { default as Conflict } from './conflict';
+export { default as InternalServerError } from './internal-server-error'; 
 export { default as NotImplemented } from './not-implemented';
