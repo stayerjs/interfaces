@@ -1,6 +1,6 @@
 {
   "name": "@stayer/interfaces",
-  "version": "0.0.15",
+  "version": "0.0.16",
   "description": "Common interfaces, types, errors & exceptions of the Stayer framework.",
   "main": "dist/index.js",
   "scripts": {
